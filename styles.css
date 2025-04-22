@@ -1,8 +1,50 @@
 https://github.com/AndIAmKevin/-user-.github.io/blob/main/styles.css.
 
 /*This is for the navigation*/
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+/**/
+main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+/*Footer*/
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #777;
 }
