@@ -19,7 +19,11 @@ ul li a {
 
 ul li a:hover {
   color: pink;
-  text-decoration: underline;
+  text-decoration: none;
+}
+ul li a:visited {
+  color: cyan;
+  text-decoration: none;
 }
 ul {
   list-style-type: none;
